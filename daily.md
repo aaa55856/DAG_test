@@ -5,5 +5,13 @@ relation between variables
 Try to review the software!
 DAG form
 
-## Usage
+## Empirical analysis
 Gas price and oil price based on season.
+
+## Result
+Figure out unobserved relationship
+
+# VAR and VEC
+
+VEC is also called Cointegrated VAR.
+
