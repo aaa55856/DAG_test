@@ -17,7 +17,7 @@
 ## Reading the data
 
 rm(list = ls())
-setwd('D:/Code/Econometrics/DAG/working/Rcodes_JdCov/R codes')
+setwd('D:/Code/Econometrics/DAG/working/Rcodes_JdCov/Rcodes')
 # pima=read.table("D:/Distance Correlation  Research/pima-indians-diabetes.data.txt",sep="," ,header = FALSE)
 source('./JdCov.R')
 
