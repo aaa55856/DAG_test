@@ -1,16 +1,18 @@
 library(dHSIC)
 library(mgcv)
-library(Matrix)
-library(MASS)
-library(parallel)
 library(graph)
-library(RBGL)
-library(DAAG)
-library(splitstackshape)
-library(gRbase)
-library(Rgraphviz)
 library(energy)
-library(mvtnorm)
+library(pcalg)
+# library(Matrix)
+# library(MASS)
+# library(parallel)
+# library(RBGL)
+# library(DAAG)
+# library(splitstackshape)
+# library(gRbase)
+# library(Rgraphviz)
+# library(mvtnorm)
+
 
 # if (!requireNamespace("BiocManager", quietly = TRUE))
 #   install.packages("BiocManager")
@@ -256,3 +258,4 @@ Sim.size.list <- function(n, d=3, p=5, cc=1, index=1, type, Mp=500, reptim=1000,
   result <- rbind( c( apply(rej,2,mean), apply(rej.s,2,mean), apply(rej.r,2,mean), apply(rej3,2,mean), apply(rej4,2,mean) ) )
   return(result)
 }
+

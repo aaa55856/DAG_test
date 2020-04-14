@@ -21,9 +21,9 @@
 
 rm(list = ls())
 setwd('D:/Code/Econometrics/DAG/working/Rcodes_JdCov/R_codes')
-# pima=read.table("D:/Distance Correlation  Research/pima-indians-diabetes.data.txt",sep="," ,header = FALSE)
 source('./JdCov.R')
 
+# pima=read.table("D:/Distance Correlation  Research/pima-indians-diabetes.data.txt",sep="," ,header = FALSE)
 pima = read.table("./pima-indians-diabetes.data.txt",
                   sep=",", header = FALSE)
 
